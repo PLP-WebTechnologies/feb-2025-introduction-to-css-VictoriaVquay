@@ -1,0 +1,63 @@
+/* Styling the body */
+body {
+    font-family:'Segoe UI', sans-serif; /* Using a different font */
+    background-color:lightgray; /* Background color */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Styling using class selector */
+.header-title {
+    color: #2a7ae2; /* Typography: Color */
+    text-align: center;
+    border-bottom: 2px solid #2a7ae2; /* Border */
+    padding-bottom: 10px; /* Padding */
+}
+
+/* Styling using ID selector */
+#description {
+    color: #333;
+    font-size: 18px;
+    font-family:'Times New Roman', serif; /* Using a different font */
+    margin: 15px 0; /* Margin */
+    text-align: justify; /* Justify text */
+    line-height: 1.5; /* Line height */
+}
+
+/* Styling the image using class selector */
+.styled-image {
+    width: 100%; /* Stretch to the full container width */
+    max-width: 300px; /* Prevent excessive stretching */
+    border: 5px solid #4caf50; /* Green border */
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px auto;
+    display: block; /* Center the image */
+}
+/* Styling the paragraph using class selector */
+.paragraph {
+    color: #333;/* Typography: Color */
+    font-size: 18px;/* Typography: Font size */
+    margin: 15px 0;/* Margin */
+    text-align: justify;/* Justify text */
+    line-height: 1.5;/* Line height */
+    padding: 10px;/* Padding */
+}
+/* Styling the list using class selector */
+.subheader{
+    color:#3eb242;/* Typography: Color */
+    font-size: 24px;/* Typography: Font size */
+    margin: 15px;/* Margin */
+    text-align: center;/* Center text */
+    border-bottom: 2px solid #2a7ae2;/* Border */
+    border-bottom-color: aqua;/* Border color */
+    padding-bottom: 10px;/* Padding */
+}
+/* Styling the list using ID selector */
+#footer {
+    color: #333;/* Typography: Color */
+    font-size: 14px;/* Typography: Font size */
+    text-align: center;/* Center text */
+    margin-top: 20px;/* Margin */
+    padding-top: 10px;/* Padding */
+    border-top: 1px solid #333;/* Border */
+}
